@@ -17,6 +17,8 @@ def vlastnosti(a, b, c) -> str:
         return 'rovnoramenny'
     else:
         return 'roznostranny'
+
+# Zistovanie, ci je pravouhly na maturite nie je
     
 def pravouhly(a, b, c) -> bool:
     strany = [a, b, c]
