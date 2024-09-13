@@ -1,6 +1,6 @@
 # Maturitné Príklady z Informatiky
 
-Vitaj na mojom GitHub repozitári, kde zdieľam svoje riešenia maturitných príkladov z informatiky zo štúdia na Gymnáziu Jána G. Tajovského (GJGT). 💻🎓
+Vitaj na mojom GitHub repozitári, kde zdieľam svoje riešenia maturitných príkladov z informatiky zo štúdia na Gymnáziu Jozefa G. Tajovského (GJGT). 💻🎓
 
 ## Obsah
 Tento repozitár obsahuje:
