@@ -77,9 +77,10 @@ def game():
 def tiebreak(dealer, hrac):
     dealer_pocet = len(dealer)
     hrac_pocet = len(hrac)
-    if dealer_pocet > hrac_pocet:
+    
+    if dealer_pocet < hrac_pocet:
         result = 'lose'
-    elif hrac_pocet > dealer_pocet:
+    elif hrac_pocet < dealer_pocet:
         result = 'win'
     else:
         result = 'draw'
@@ -112,7 +113,7 @@ def main():
             print(f'Prehral si! Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty}')
         
         elif hrac_hodnoty < dealer_hodnoty:
-            print('Prehral si! Tvoje karty boli', hrac_vis, "s hodnotou", hrac_hodnoty, 'a dealer mal', dealer_hodnoty, f'({dealer_vis})')
+            print(f'Prehral si! Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty} a dealer mal {dealer_hodnoty}: {dealer_vis}')
         
         elif hrac_hodnoty == dealer_hodnoty:
             win, dealer_pocet, hrac_pocet = tiebreak(dealer_vis, hrac_vis)
@@ -123,12 +124,12 @@ def main():
             else:
                 uvod = 'Remizoval si!'
 
-            fraza = 'Tvoje karty boli', hrac_vis, "s hodnotou", hrac_hodnoty, f'a dealer mal {dealer_pocet} kariet s hodnotou', dealer_hodnoty, f'({dealer_vis})'
+            fraza = str(f'Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty} a dealer mal {dealer_pocet} kariet s hodnotou {dealer_hodnoty}: {dealer_vis}')
         
             print(uvod, fraza)
 
         else:
-            print('Vyhral si! Tvoje karty boli', hrac_vis, "s hodnotou", hrac_hodnoty, 'a dealer mal', dealer_hodnoty, f'({dealer_vis})')
+            print(f'Vyhral si! Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty} a dealer mal {dealer_hodnoty}: {dealer_vis}')
 
         if win == 'win':
             peniaze += stavka
