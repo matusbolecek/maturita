@@ -1,4 +1,4 @@
-def narodenie(rok, mesiac, den):
+def narodenie(rok, mesiac, den) -> str | int:
     rok = int(rok)
     if rok >= 50:
         rok += 1900
@@ -16,7 +16,6 @@ def narodenie(rok, mesiac, den):
 
     return pohlavie, rok, mesiac, den
 
-
 def main():
     cislo = input('Zadaj rodne cislo: ')
     rc2 = (cislo[:6] + cislo[7:])
@@ -27,8 +26,6 @@ def main():
 
     pohlavie, rok, mesiac, den = narodenie(rc2[:2], rc2[2:4], rc2[4:6])
     print(f'Narodil si sa {den}. {mesiac}. {rok} a si {pohlavie}')
-
-
 
 if __name__ == "__main__":
     main()

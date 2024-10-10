@@ -1,5 +1,4 @@
 # nie je maturitny
-
 # dalo by sa to robit lepsie, ze sa spravia 2 listy, ale je to totalne jedno tbh
 
 import statistics

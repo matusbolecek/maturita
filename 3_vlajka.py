@@ -2,7 +2,7 @@
 
 import tkinter
 
-def vypocet(vyska):
+def vypocet(vyska) -> int:
     y1, x1 = 2, 3
     x = vyska * x1
     y = vyska * y1

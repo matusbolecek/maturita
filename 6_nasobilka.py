@@ -5,7 +5,7 @@
 
 import random
 
-def generuj(zoznam):
+def generuj(zoznam) -> int:
     generovane = None
     while generovane in zoznam or generovane == None:
         prve, druhe = random.randint(1, 10), random.randint(1, 10)
@@ -44,7 +44,7 @@ def main(pocet_prikladov) -> list:
 
     return vysledky
 
-def vycisli(zozn):
+def vycisli(zozn) -> str:
     i = 1
     for cislo in zozn:
         print(f'{i}. pokus: ziskal si {cislo} body')

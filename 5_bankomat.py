@@ -2,7 +2,7 @@
 
 bankovky = [500, 200, 100, 50, 20, 10, 5, 2, 1, 0.50, 0.20, 0.10, 0.05, 0.02, 0.01]
 
-def vypocitaj(suma, list = bankovky):
+def vypocitaj(suma, list = bankovky) -> list:
     vydavok = []
     for penaze in list:
         pocet = suma // penaze
@@ -11,7 +11,7 @@ def vypocitaj(suma, list = bankovky):
     
     return vydavok
 
-def rozpis(vydavky, bankovky = bankovky):
+def rozpis(vydavky, bankovky = bankovky) -> str:
       for i in range(0, len(vydavky)):
         pocty = f'Mas {vydavky[i]} {bankovky[i]}-eurovych'
         if bankovky[i] >=5 and int(vydavky[i]) != 0:
