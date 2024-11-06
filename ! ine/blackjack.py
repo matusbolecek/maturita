@@ -112,7 +112,7 @@ def main():
         if hrac_hodnoty > 21:
             print(f'Prehral si! Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty}')
         
-        elif hrac_hodnoty < dealer_hodnoty:
+        elif hrac_hodnoty < dealer_hodnoty and dealer_hodnoty <= 21:
             print(f'Prehral si! Tvoje karty boli {hrac_vis} s hodnotou {hrac_hodnoty} a dealer mal {dealer_hodnoty}: {dealer_vis}')
         
         elif hrac_hodnoty == dealer_hodnoty:

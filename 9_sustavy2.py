@@ -20,6 +20,6 @@ def konvertuj(cislo: str, sustava: int) -> str:
 
 if __name__ == "__main__":
     vstup = str(input('Zadaj cislo: '))
-    sustava = int(input('Zadaj sustavu (1 - 36): '))
+    sustava = int(input('Zadaj sustavu (2 - 36): '))
     vystup = konvertuj(vstup, sustava)
     print(f'Cislo {vstup} v {sustava}-kovej sustave je {vystup} v 10-kovej sustave')

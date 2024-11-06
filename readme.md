@@ -4,12 +4,13 @@ Vitaj na mojom GitHub repozitári, kde zdieľam svoje riešenia maturitných pr�
 
 ## Obsah
 Tento repozitár obsahuje:
-- Kód z hodín informatiky
-- Rôzne maturitné zadania a ich riešenia
+- Maturitné zadania a ich riešenia
 - Príklady a úlohy na prípravu na maturitu
+- Rôzne hry a iné experimenty vytvorené vo voľnom čase na hodinách
 
 ## Použitie
-Každý priečinok obsahuje samostatný príklad so zadaniami a mojimi riešeniami. Ak máš záujem, môžeš si stiahnuť celý repozitár alebo prejsť na jednotlivé príklady.
+Hlavný priečinok obsahuje samostatné príklad so stručnými zadaniami a mojimi riešeniami. Ak máš záujem, môžeš si stiahnuť celý repozitár alebo prejsť na jednotlivé príklady.
+Priečinok iné obsahuje rôzne hry alebo iné príklady na prípravu, ktoré nie sú súčasťou maturity. Sú vytvorené so zábavy vo voľnom čase.
 
 ---
 
