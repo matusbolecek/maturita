@@ -4,14 +4,14 @@
 
 from random import randint
 
-def vygeneruj(zoznam, min, max):
+def vygeneruj(zoznam: list, min: int, max:int) -> int:
     cislo = None
     while cislo in zoznam or cislo == None:
         cislo = randint(min, max)
     
     return cislo
 
-def losuj(pocet = 6, min = 1, max = 49):
+def losuj(pocet = 6, min = 1, max = 49) -> list:
     los = []
     for i in range(pocet):
         cislo = vygeneruj(los, min, max)
@@ -19,7 +19,7 @@ def losuj(pocet = 6, min = 1, max = 49):
 
     return los
 
-def hrac(pocet = 6, min = 1, max = 49):
+def hrac(pocet = 6, min = 1, max = 49) -> list:
     hrac_zoznam = []
     for i in range(pocet):
         cislo = None
@@ -34,7 +34,7 @@ def hrac(pocet = 6, min = 1, max = 49):
 
     return hrac_zoznam
 
-def porovnaj(los, hrac):
+def porovnaj(los: list, hrac: list) -> int | list:
     i = 0
     zhody = []
     for items in hrac:
@@ -44,7 +44,7 @@ def porovnaj(los, hrac):
 
     return i, zhody
 
-def main():
+def main() -> str:
     losovane = sorted(losuj())
     hracove = sorted(hrac())
     i, zhody = porovnaj(losovane, hracove)
