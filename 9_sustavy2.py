@@ -1,4 +1,5 @@
-# vlastny postup
+# prevod cisla z lubovolnej sustavy do desiatkovej
+# vlastny postup; normalne by sa to malo riesit cez chr() a ord()
 
 import string
 

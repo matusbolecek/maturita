@@ -1,6 +1,6 @@
 # vygenerovat 6 cisel (1-49), osetrit, aby neboli v zozname
 # porovnaj a pocitaj, kolko si uhadol
-# over, ci vstup neni blbost
+# over, ci vstup nie je nezmysel
 
 from random import randint
 

@@ -1,3 +1,5 @@
+# prevod cisla z desiatkovej do lubovolnej sustavy
+# vstup je cislo v 10 sustave, vystup je cislo v zadanej
 # na maturitu staci 2 - 16
 
 import string

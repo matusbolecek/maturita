@@ -1,3 +1,6 @@
+# vstup je rodne cislo, na zaklade ktoreho program zisti den, mesiac a rok narodenia
+# pohlavie sa zistuje podla mesiaca (zeny maju +50)
+
 def narodenie(rok, mesiac, den) -> str | int:
     rok = int(rok)
     if rok >= 50:

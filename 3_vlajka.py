@@ -1,4 +1,5 @@
 # na maturitu treba spravit slovensku vlajku
+# toto riesenie je doplnene aj o ine vlajky
 
 import tkinter
 

@@ -1,3 +1,4 @@
+# vstup je nejaka suma (v eurach) a vystup je rozdelenie tejto sumy na bankovky
 # na maturite nie su centy
 
 bankovky = [500, 200, 100, 50, 20, 10, 5, 2, 1, 0.50, 0.20, 0.10, 0.05, 0.02, 0.01]

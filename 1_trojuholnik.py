@@ -1,4 +1,5 @@
-# maturitny
+# zadaj tri strany, porovnaj a zisti, ci sa da trojuholnik zostrojit
+# nasledne zisti, ci je rovnoramenny, rovnostranny alebo roznostranny
 
 def read(vstup) -> float:
     strana = float(input(f'Zadaj dlzku strany {vstup}: '))
