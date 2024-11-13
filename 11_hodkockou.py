@@ -1,4 +1,4 @@
-# zadaj pocet hodov, napis, kolko krat padlo ktore
+# zada sa pocet hodov. Program vypise, kolko krat padlo ktore
 
 import random
 

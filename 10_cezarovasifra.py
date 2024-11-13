@@ -1,5 +1,5 @@
-# zadaj text na zasifrovanie, posunie sa o n pismen. Mas zadat posun
-# na maturite netreba medzeru
+# zadaj text na zasifrovanie, posunie sa o n pismen. Posun je zadany
+# na maturite netreba osetrit medzeru - vstup by mal byt jedno slovo
 
 def sifruj(slovo:str, posun:int) -> str:
     maximum = ord('z') - ord('a') + 1 # tu treba tu jednotku, lebo inak to nerata prve pismeno
