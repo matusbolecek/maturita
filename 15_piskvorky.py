@@ -8,7 +8,7 @@ cislo = 1 # striedanie jedneho a druheho hraca
 
 def tah(sur):
     global cislo
-    okno = canvas.winfo_reqheight() / 15
+    okno = int(canvas.winfo_reqheight() / 15)
     offset = okno / 7
     x = sur.x // okno * okno # + (okno / 2)
     y = sur.y // okno * okno # + (okno / 2)
