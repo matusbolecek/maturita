@@ -12,6 +12,10 @@ Tento repozitár obsahuje:
 Hlavný priečinok obsahuje samostatné príklad so stručnými zadaniami a mojimi riešeniami. Ak máš záujem, môžeš si stiahnuť celý repozitár alebo prejsť na jednotlivé príklady.
 Priečinok iné obsahuje rôzne hry alebo iné príklady na prípravu, ktoré nie sú súčasťou maturity. Sú vytvorené so zábavy vo voľnom čase.
 
+## Poznámky
+- Pri práci s textom sú výstupné súbory (*.txt) zahrnuté v gitignore, čiže nie sú súčasťou repozitára. Vstupné textové súbory (*.text) zahnruté sú
+- Office príklady budú doplnené neskôr
+
 ---
 
 Šťastné programovanie! 🎉
