@@ -1,3 +1,6 @@
+# v zadanom subore (doplnky/25_ciernobiely2.text) su cisla, ktore predstavuju pocet ciernych a bielych pixelov. 
+# Vykresli podla nich obrazok.
+
 import tkinter
 
 subor = 'doplnky/25_ciernobiely2.text'
