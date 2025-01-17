@@ -1,4 +1,5 @@
 # Teoretický základ k príkladom
+Tento dokument zahŕňa podpornú dokumentáciu k príkladom.
 
 ## Obsah
 1. [Trojuholník](#trojuholník)
