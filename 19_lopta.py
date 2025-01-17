@@ -1,7 +1,6 @@
 # lopta, ktora sa odraza od stien
 
 import tkinter
-import random
 
 h = 600
 w = 800

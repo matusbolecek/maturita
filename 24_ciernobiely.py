@@ -1,7 +1,6 @@
 # zadany je subor (doplnky/ciernobiely.text), ktory treba precitat a podla pixelov vykreslit obrazok
 
 import tkinter
-from textwrap import wrap
 
 subor = open('doplnky/24_ciernobiely.text', 'r')
 r = subor.readline()
