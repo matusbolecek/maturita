@@ -20,6 +20,9 @@ Priečinok iné obsahuje rôzne hry alebo iné príklady na prípravu, ktoré ni
 
 Šťastné programovanie! 🎉
 
+---
+
+
 # Teoretický základ k príkladom
 Tento dokument zahŕňa podpornú dokumentáciu k príkladom.
 
@@ -49,6 +52,11 @@ Tento dokument zahŕňa podpornú dokumentáciu k príkladom.
 23. [Dĺžka skladieb](#dĺžka-skladieb)
 24. [Čiernobiely obrázok 1](#čiernobiely-obrázok-1)
 25. [Čiernobiely obrázok 2](#čiernobiely-obrázok-2)
+26. [Počet v texte](#počet-v-texte)
+27. [Najlepší výsledok](#najlepší-výsledok)
+28. [Výsledková listina](#výsledková-listina)
+29. [Skok do diaľky](#skok-do-diaľky)
+30. [Analýza textu](#analýza-textu)
 
 ## Trojuholník
 Program overuje existenciu trojuholníka a jeho vlastnosti. Trojuholník existuje, ak súčet každých dvoch strán je väčší ako tretia strana. Následne sa určuje, či je:
@@ -233,3 +241,38 @@ Vykreslenie obrázka podľa počtu čiernych a bielych pixelov. Hlavné body:
 - Striedanie farieb
 - Kreslenie súvislých úsekov
 - Spracovanie vstupného formátu
+
+## Počet v texte
+Program na analýzu textového súboru. Kľúčové body:
+- Počítanie riadkov v súbore
+- Počítanie slov (rozdelenie podľa medzier)
+- Počítanie všetkých znakov
+- Práca s textovým súborom (čítanie po riadkoch)
+
+## Najlepší výsledok
+Program na nájdenie najlepšieho športového výsledku. Hlavné koncepty:
+- Čítanie údajov zo súboru (meno a čas)
+- Porovnávanie časov
+- Prevod sekúnd na formát mm:ss
+- Práca so zoznamami
+
+## Výsledková listina
+Program na zoradenie športových výsledkov. Dôležité prvky:
+- Čítanie údajov zo súboru
+- Zoradenie podľa času (vzostupne)
+- Vlastná implementácia zoraďovacieho algoritmu
+- Formátovaný výpis výsledkov
+
+## Skok do diaľky
+Program na vyhodnotenie súťaže v skoku do diaľky. Kľúčové body:
+- Spracovanie viacerých pokusov pre každého súťažiaceho
+- Nájdenie najlepšieho výkonu
+- Ošetrenie rovnosti výkonov
+- Formátovaný výpis víťazov
+
+## Analýza textu
+Program na štatistickú analýzu textu. Hlavné body:
+- Počítanie výskytu jednotlivých písmen
+- Ignorovanie veľkosti písmen
+- Práca s ASCII tabuľkou
+- Formátovaný výpis štatistiky
